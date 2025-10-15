@@ -3,6 +3,40 @@ Loop Practice :
 
 """
 
+# WAP for checking Prime number : 
+
+num = int(input("Enter Number --> "));
+
+if num <=1 : 
+    print(f"{num} is not a Prime Number .");
+else :
+    for i in range(2 , num+1) :
+        pass
+
+# NOTe: REMANING THIS WORK
+
+
+
+
+
+# WAP to print Fibonacci sequence using for loop
+
+n = int(input("Enter how many terms you want --> "))
+"""
+n = 10 
+a = 0 , 1 , 1 , 2 , 3 , 5 , 8
+b = 1 , 1 , 2 , 3 , 5 , 8 , 13
+c = 0 , 1 ,  1 , 2 , 3 , 5 , 8 , 13 
+"""
+a = 0 ,
+b = 1 ,
+for i in range(n) : 
+    print(a);
+    c = a+b
+    a = b 
+    b = c
+
+
 # 1. WAP to find the sum of first natural numbers (using while loop);
 
 n = int(input("Enter a number --> "));
