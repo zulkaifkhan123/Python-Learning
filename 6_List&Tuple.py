@@ -24,7 +24,12 @@ print(student)
 student.insert(1,31)
 print(student)
 
+
+#tuple
+
 teacher = ("imran" , 73);
+
+
 #teacher[0] = "khan" # it will give error because tuple is immutable
 print(teacher) # ("imran" , 73)
 print(teacher[0:]) # print hole array or tuple
