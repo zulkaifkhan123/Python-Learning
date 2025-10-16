@@ -3,22 +3,6 @@ Loop Practice :
 
 """
 
-# WAP for checking Prime number : 
-
-num = int(input("Enter Number --> "));
-
-if num <=1 : 
-    print(f"{num} is not a Prime Number .");
-else :
-    for i in range(2 , num+1) :
-        pass
-
-# NOTe: REMANING THIS WORK
-
-
-
-
-
 # WAP to print Fibonacci sequence using for loop
 
 n = int(input("Enter how many terms you want --> "))
