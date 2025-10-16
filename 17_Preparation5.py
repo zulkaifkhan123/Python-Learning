@@ -4,12 +4,12 @@ Question : Print All Prime Numbers Between 1 to 100
 """
 
 
-# for num in range (2 , 101) :
-#     for i in range (2 , num) : 
-#         if num % i == 0 :
-#             break
-#     else :
-#         print(num)
+for num in range (2 , 11) :
+    for i in range (2 , num) : 
+        if num % i == 0 :
+            break
+    else :
+        print(num)
         
 
 
@@ -28,9 +28,3 @@ else:
     print("This is a Prime number.")
 
 
-
-"""
-value 17
-now loop will check from 2-16
-
-"""

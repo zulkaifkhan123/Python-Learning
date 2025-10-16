@@ -30,7 +30,8 @@ save = 0
 while i<=n :
     save += i
     i+=1
-print(save) 
+else : 
+    print(save) 
 
 
 #2. WAP to find the factorial of first n numbers (using for loop);
